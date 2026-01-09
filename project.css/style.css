@@ -1,0 +1,63 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    background-color: #469165;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* main atyle */
+header{
+    background-color:#FFFFFF;
+    padding-top: 16px;
+
+}
+nav{
+    width: 71%;
+    max-width: 1600px;
+    height: 92px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+   
+    
+; */
+    /* justify-content: center */
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 32px;
+   
+}
+nav .menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+    
+nav .logo{
+    /* align-items: left; */
+}
