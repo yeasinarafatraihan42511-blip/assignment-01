@@ -9,9 +9,14 @@ body {
     background-color: aqua;
 }
 
+
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  
+}
+
+
 }
 .btn{
     background-color: #469165;
@@ -20,8 +25,38 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn-primary{
+    background-color: #469165;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+}
+.btn-secondary{
+    background-color: none;
+    color: white;
+    border: 1px solid #469165;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-early-access{
+    background-color: #469165;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 
@@ -54,10 +89,21 @@ nav .menu{
 nav .menu a{
     text-decoration: none;
     color: #000000;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 500;
 }
     
 nav .logo{
     /* align-items: left; */
+
+}
+.hero{
+    height:100vh;
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
