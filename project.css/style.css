@@ -353,3 +353,45 @@ nav .logo{
   position: absolute;
   left: 0;
 }
+.ready-section {
+  padding: 60px 20px;
+  background-color: #eff9f9;
+  text-align: center;
+}
+
+.ready-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ready-container h2 {
+  font-size: 28px;
+  color: #0a2540;
+  margin-bottom: 20px;
+}
+
+.ready-container p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ready-container button {
+  padding: 10px 20px;
+  background-color: #3ba776;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ready-container .note {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
