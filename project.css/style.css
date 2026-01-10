@@ -176,3 +176,43 @@ nav .logo{
     align-items: center;
     gap: 16px;
 }
+.notes{
+    text-align: center;
+    padding: 40px;
+}
+.you{
+    font-size: 11px;
+    color:#627382;
+    margin-top: 16px;
+}
+.card-section{
+    padding: 80px 0px;
+    background: #f9f9fb;
+    justify-content: space-between;
+}
+.container{
+  width: 90%;
+    max-width: 1200px;
+    margin:  auto;
+    justify-content: space-between;
+}
+.card{
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+#skills{
+    padding: 80px 0px;
+    margin: 0 auto;
+
+}
+#skills .skills-container{
+    width: 1360px;
+    margin: 0 auto;
+    
+}
+.img-icon{
+    background-color: orange;
+}
