@@ -267,6 +267,89 @@ nav .logo{
     text-align: center;
     padding: 30px;
    
-    background-color:white
+    background-color:white;}
 
+/* }
+.text{
+    color: black;{
+    text-align: left: 0px;
+
+    }
+   
+.solution{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px;
+} */
+
+/*  */
+.solution-container{
+    display: flex;
+    justify-content: center;
+
+}
+.solution-section{
+    display: flex;
+}
+.
+.solution-section {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.solution-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Image */
+.solution-image img {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Content */
+.solution-content {
+  max-width: 500px;
+}
+
+.solution-content .tag {
+  color: #3ba776;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.solution-content h2 {
+  font-size: 36px;
+  margin: 15px 0;
+  color: #0a2540;
+}
+
+.solution-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.solution-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.solution-content ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 22px;
+}
+
+.solution-content ul li::before {
+  content: "✔";
+  color: #3ba776;
+  position: absolute;
+  left: 0;
 }
