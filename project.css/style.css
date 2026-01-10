@@ -207,12 +207,66 @@ nav .logo{
     padding: 80px 0px;
     margin: 0 auto;
 
-}
-#skills .skills-container{
-    width: 1360px;
-    margin: 0 auto;
-    
+
 }
 .img-icon{
-    background-color: orange;
+    background-color: green
+  
+
+}
+.section-heading{
+    text-align: center;
+    align-items: center;
+
+    
+/* }
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+#skills .skills-container .skill-box .skill-card{
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+.skill-box .skill-card{
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+} */
+ /* 
+ 
+*/
+/* 
+.card-section{
+    display: flex;
+    align-items: center; */
+
+}
+.skill-box{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 60px ;
+    border: size 322px 300px;
+    
+}
+.skill-card{
+    text-align: center;
+    padding: 30px;
+   
+    background-color:white
+
 }
